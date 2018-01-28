@@ -17,6 +17,8 @@
 
 * segmentfault.py segmentfault文章爬虫
 
+* zhihu.py 知乎的文章
+
 ## 使用方法举例
 
 ```

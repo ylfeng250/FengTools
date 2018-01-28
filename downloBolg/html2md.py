@@ -9,6 +9,7 @@ import csdn
 import jianshu
 import juejin
 import segmentfault
+import zhihu
 
 def checkSite(url):
     """
@@ -19,9 +20,11 @@ def checkSite(url):
     elif url.find('jianshu') != -1: # 简书
         jianshu.downLoad(url)
     elif url.find('juejin') != -1: # 掘金
-        juejin.downDLoad(url)
+        juejin.downLoad(url)
     elif url.find('segmentfault') != -1:
         segmentfault.downLoad(url)
+    elif url.find('zhihu') != -1:
+        zhihu.downLoad(url)
     else:
         doelse(url)
 
