@@ -23,6 +23,7 @@
 }
 ```
 2.设置语法高亮和mathjax支持和显示浏览器为Chrome
+
 ```json
 
 {
@@ -55,6 +56,7 @@ Markdown 格式在 Sublime 中默认无高亮，很多主题也不支持 Markdow
 在查找资料的过程中发现可以用 Sublime + Markdown 写论文，就跟着学了一把。
 
 `AcademicMarkdown` 通过在 Markdown 文档中添加一定的信息，具体说是文件头，来帮助我们将 Markdown 文档渲染为符合指定论文格式的文章。以下文件头摘自插件作者给出的 样例。
+
 ```
 title: A sample paper
 author: Donald Duck
