@@ -88,8 +88,12 @@ def segmentfault(url):
     soup = BeautifulSoup(html,'html5lib')
     title = soup.find('title').text # 获取标题
     article = str(soup.find(class_='article__content'))
-
-    ## 写入文件
+    ## 能够加载图片
+    # article = re.sub('<p><span class="img-wrap">','',article)
+    # article = re.sub('</span></p>','',article)
+    article = re.sub('data-src="','src="https://segmentfault.com',article)
+    print(article)
+    # 写入文件
     pwd = os.getcwd() # 获取当前的文件路径
     dirpath = pwd + '/segmentfault/'
     write2md(dirpath,title,article)
