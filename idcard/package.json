@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "version": "",
+  "description": "身份证",
+  "dependencies": {
+    "distpicker": "^2.0.4",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.16"
+  }
+}
