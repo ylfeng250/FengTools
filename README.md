@@ -8,3 +8,4 @@
 * [downloadBolg](/downBolg) 下载博客转换成Markdown和html(过滤标签)的形式
 * [微信群发祝福](/微信群发祝福) 过年过节微信群发祝福
 * [idcard](/idcard) 身份证的秘密
+* [ecnu_login](/ecnu_login)ECNU网页账号登录脚本
