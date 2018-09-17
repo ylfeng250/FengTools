@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS行为记录Demo</title>
+    <link rel="stylesheet" href="feng.css">
+</head>
+<body>
+    <div>
+        <form action="#">
+            密码: <input type="password" value=""> 
+        </form>
+    </div>
+    <br>
+    <img src="./timg.jpeg" alt="">
+    <script>
+        var inps = document.getElementsByTagName("input");
+        for(let i =0;i<inps.length;i++){
+            inps[i].addEventListener("keyup",(e)=>{
+            inps[i].setAttribute('value',inps[i].value);
+        })
+        }
+        
+    </script>
+</body>
+</html>

@@ -9,3 +9,4 @@
 * [微信群发祝福](/微信群发祝福) 过年过节微信群发祝福
 * [idcard](/idcard) 身份证的秘密
 * [ecnu_login](/ecnu_login)ECNU网页账号登录脚本
+* [css-log](/css-log) css追踪用户浏览行为

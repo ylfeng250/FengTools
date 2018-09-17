@@ -1,0 +1,5 @@
+@font-face { font-family: x; src: url("http://localhost:3000/a"), local(Impact); unicode-range: U+61; }
+@font-face { font-family: x; src: url("http://localhost:3000/b"), local(Impact); unicode-range: U+62; }
+@font-face { font-family: x; src: url("http://localhost:3000/c"), local(Impact); unicode-range: U+63; }
+@font-face { font-family: x; src: url("http://localhost:3000/d"), local(Impact); unicode-range: U+64; }
+input { font-family: x, 'Comic sans ms'; }
