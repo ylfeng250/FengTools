@@ -132,8 +132,6 @@ def doelse(url):
     if not os.path.exists(dirpath):# 判断目录是否存在，不存在则创建新的目录
         os.makedirs(dirpath)
     ## 写入文件
-    pwd = os.getcwd() # 获取当前的文件路径
-    dirpath = pwd + '/ELSE/'
     write2md(dirpath,title,article)
     
 
