@@ -10,3 +10,4 @@
 * [idcard](/idcard) 身份证的秘密
 * [ecnu_login](/ecnu_login)ECNU网页账号登录脚本
 * [css-log](/css-log) css追踪用户浏览行为
+* [tomd](/tomd) html转markdown脚本 （收录）
