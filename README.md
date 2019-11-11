@@ -12,3 +12,4 @@
 * [css-log](/css-log) css追踪用户浏览行为
 * [tomd](/tomd) html转markdown脚本 （收录）
 * [scel2txt.py] 搜狗词库scel 文件 解析脚本 (收录并改造)
+* [xml2csv](/xml2csv) xml文件转csv的一种方案
