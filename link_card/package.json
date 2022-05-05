@@ -11,5 +11,8 @@
 	"dependencies": {
 		"axios": "^0.27.2",
 		"cheerio": "^1.0.0-rc.10"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.4"
 	}
 }
